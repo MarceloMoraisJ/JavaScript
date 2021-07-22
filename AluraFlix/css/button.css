@@ -1,0 +1,18 @@
+button{
+    width: 420px;
+    height: 55px;
+    display: block;
+    margin: auto;
+    border-radius: 0;
+    background-color: var(--color-second);
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    color: var(--color-third);
+    font-size: 20px;
+    box-shadow: 4px 4px 0px var(--color-black-first);
+    transition: transform 200ms ease-in-out;
+}
+button:hover{
+    transform: scale(1.05);
+}

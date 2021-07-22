@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 h1{
-    color: #f25a70;
-    text-shadow: 4px 4px 0px #000;
+    color: var(--color-first);
+    text-shadow: 4px 4px 0px var(--color-black-first);
     text-align: center;
+    font-size: 50px;
 }
