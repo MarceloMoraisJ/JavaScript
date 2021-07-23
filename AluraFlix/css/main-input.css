@@ -1,4 +1,4 @@
-input{
+.main-input{
     display: block; 
     margin: auto;
     width: 420px;
@@ -9,6 +9,6 @@ input{
     font-family: inherit;
     font-size: 15px;
     padding: 0px 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     box-sizing: border-box;
 }

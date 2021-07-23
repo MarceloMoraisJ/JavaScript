@@ -1,4 +1,4 @@
-button{
+.main-button{
     width: 420px;
     height: 55px;
     display: block;
@@ -13,6 +13,9 @@ button{
     box-shadow: 4px 4px 0px var(--color-black-first);
     transition: transform 200ms ease-in-out;
 }
-button:hover{
+.main-button:last-of-type{
+    margin-top: 40px;
+}
+.main-button:hover{
     transform: scale(1.05);
 }

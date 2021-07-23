@@ -7,52 +7,67 @@
     <title>AluraFlix</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/title.css">
-    <link rel="stylesheet" href="css/label.css">
-    <link rel="stylesheet" href="css/input.css">
-    <link rel="stylesheet" href="css/button.css">
-    <link rel="stylesheet" href="css/Banner.css">
-    <link rel="stylesheet" href="css/caption.css">
+    <link rel="stylesheet" href="css/main-title.css">
+    <link rel="stylesheet" href="css/main-label.css">
+    <link rel="stylesheet" href="css/main-input.css">
+    <link rel="stylesheet" href="css/main-button.css">
+    <link rel="stylesheet" href="css/main-banner.css">
+    <link rel="stylesheet" href="css/main-caption.css">
     <link rel="stylesheet" href="css/wrapper-banner.css">
+    <link rel="stylesheet" href="css/list-banners.css">
+    <link rel="stylesheet" href="css/main-footer.css">
 </head>
 <body>
     
-    <h1>AluraFlix</h1>
+    <h1 class="main-title">AluraFlix</h1>
 
-    <label for="">Qual é o seu filme favorito?</label>
-    <input type="text" onclick="">
+    <label class="main-label" for="movie">Nome do filme</label>
+    <input class="main-input" id="movie" type="text" onclick="">
+    
+    <label class="main-label" for="url">URL da imagem</label>
+    <input class="main-input" id="url" type="text" onclick="">
 
-    <button>Adicionar</button>
+    <button class="main-button">Adicionar</button>
 
-    <figure class="wrapper-banner">
-        <img class="banner" src="imagens/VingadoresUltimato.jpg" alt="movie banner">
-        <figcaption class="caption">Nome do filme</figcaption>
-    </figure>
-    
-    <figure class="wrapper-banner">
-        <img class="banner" src="imagens/EscapeRoom.jpg" alt="movie banner">
-        <figcaption class="caption">Nome do filme</figcaption>
-    </figure>
-    
-    <figure class="wrapper-banner">
-        <img class="banner" src="imagens/GodzillaVsKong.jpg" alt="movie banner">
-        <figcaption class="caption">Nome do filme</figcaption>
-    </figure>
-    
-    <figure class="wrapper-banner">
-        <img class="banner" src="imagens/HarryPotterPedraFilosofal.jpg" alt="movie banner">
-        <figcaption class="caption">Nome do filme</figcaption>
-    </figure>
-    
-    <figure class="wrapper-banner">
-        <img class="banner" src="imagens/RuaDoMedo1.jpg" alt="movie banner">
-        <figcaption class="caption">Nome do filme</figcaption>
-    </figure>
-    
-    <figure class="wrapper-banner">
-        <img class="banner" src="imagens/OPoderosoChefao.jpg" alt="movie banner">
-        <figcaption class="caption">Nome do filme</figcaption>
-    </figure>
+    <section class="list-banners">
+        
+        <figure class="wrapper-banner">
+            <img class="main-banner" src="imagens/VingadoresUltimato.jpg" alt="movie banner">
+            <figcaption class="main-caption">Vingadores Ultimato</figcaption>
+        </figure>
+        
+        <figure class="wrapper-banner">
+            <img class="main-banner" src="imagens/EscapeRoom.jpg" alt="movie banner">
+            <figcaption class="main-caption">Escape room</figcaption>
+        </figure>
+        
+        <figure class="wrapper-banner">
+            <img class="main-banner" src="imagens/GodzillaVsKong.jpg" alt="movie banner">
+            <figcaption class="main-caption">Godzilla Vs Kong</figcaption>
+        </figure>
+        
+        <figure class="wrapper-banner">
+            <img class="main-banner" src="imagens/HarryPotterPedraFilosofal.jpg" alt="movie banner">
+            <figcaption class="main-caption">Harry Potter e a Pedra Filosofal</figcaption>
+        </figure>
+        
+        <figure class="wrapper-banner">
+            <img class="main-banner" src="imagens/RuaDoMedo1.jpg" alt="movie banner">
+            <figcaption class="main-caption">Rua do Medo Pt1</figcaption>
+        </figure>
+        
+        <figure class="wrapper-banner">
+            <img class="main-banner" src="imagens/OPoderosoChefao.jpg" alt="movie banner">
+            <figcaption class="main-caption">O Poderoso Chefão</figcaption>
+        </figure>
+    </section>
+
+    <footer class="main-footer">
+        
+        <a class="logo" href="https://alura.com.br/promocao/marcobrunodev" target="_blank"><img src="imagens/pexels-magda-ehlers.jpg" alt="logo" width="175px" height="80px"></a>
+        
+        <h3 class="title">#ImersãoDev</h3>
+    </footer>
 
     <script src="script.js"></script>
 </body>
