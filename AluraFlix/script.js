@@ -1,5 +1,5 @@
 
-const figure = document.createElement('figcaption');
+const figure = document.createElement('figure');
 const img = document.createElement('img');
 const title = document.createElement('figcaption');
 const listBanners = document.querySelector('.list-banners');
