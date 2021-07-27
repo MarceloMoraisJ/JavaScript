@@ -1,2 +1,2 @@
 # exJavaScript
- Alguns exercícios em javascript
+ Alguns exercícios e desafios de javascript
